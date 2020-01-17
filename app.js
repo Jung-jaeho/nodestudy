@@ -10,8 +10,10 @@ app.get('/route', function(req, res){
 })
 
 app.get('/',function(req,res){ //응답에 대한 객체를 불러온다. callback
-  res.send('Hello home');
+   res.render('index.html');
 });  //이건 홈이다.
+
+
 app.get('/login', function(req,res){
   res.send('Login please');
 });
