@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/web-n/web1_html_internet#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "passport": "^0.4.1"
   }
 }
